@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Canvas | Stunning Photography Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <div class="header-content">
+            <h1>Pixora</h1>
+            <p class="tagline">Discover the breathtaking beauty of our planet through stunning photography</p>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Collections</a>
+                <a href="#">Photographers</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="gallery-controls">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search photos..." id="searchInput">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="Landscapes">Landscapes</button>
+                <button class="filter-btn" data-filter="Wildlife">Wildlife</button>
+                <button class="filter-btn" data-filter="Mountains">Mountains</button>
+                <button class="filter-btn" data-filter="Oceans">Oceans</button>
+                <button class="filter-btn" data-filter="Forests">Forests</button>
+            </div>
+        </div>
+
+        <div class="gallery-grid" id="gallery">
+            <!-- Gallery items will be inserted here by JavaScript -->
+        </div>
+
+        <button class="load-more" id="loadMore">Load More</button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Nature's Canvas</h3>
+            <p>Celebrating the beauty of our natural world through photography</p>
+            
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Gallery</a>
+                <a href="#">Photographers</a>
+                <a href="#">Exhibitions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; <span id="currentYear"></span> Nature's Canvas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-download" id="lightboxDownload" title="Download">
+                <i class="fas fa-download"></i>
+            </button>
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <img class="lightbox-img" id="lightboxImg" src="" alt="">
+            <div class="lightbox-nav">
+                <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="image-info" id="imageInfo"></div>
+        </div>
+    </div>
+
+    <script src="JavaScript/index.js"></script>
+</body>
+</html>

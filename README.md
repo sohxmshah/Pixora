@@ -21,9 +21,10 @@ Features
 Project Structure
 
 📁 project-root/
-├── index.html         # Main HTML structure
-├── index.js           # JavaScript functionality and interactivity
-└── style.css          # (Assumed) CSS for styling (not provided here)
+├── index.html        
+├── index.js --> functionality and interactivity
+└── style.css --> # (Assumed) CSS for styling (not provided here)
+
 How to Use
 Clone or download the repository.
 

@@ -19,9 +19,7 @@ Features
 📆 Dynamic Footer: Displays the current year automatically.
 
 Project Structure
-graphql
-Copy
-Edit
+
 📁 project-root/
 ├── index.html         # Main HTML structure
 ├── index.js           # JavaScript functionality and interactivity

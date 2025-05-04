@@ -20,7 +20,7 @@ Features
 
 Project Structure
 
-📁 project-root/
+📁 project-root/ <br>
 ├── index.html        
 ├── index.js --> functionality and interactivity
 └── style.css --> # (Assumed) CSS for styling (not provided here)
